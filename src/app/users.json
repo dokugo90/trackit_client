@@ -1,0 +1,32 @@
+[
+    {
+        "firstName": "John",
+        "lastName": "Doe",
+        "photo": "https://example.com/photos/johndoe.jpg",
+        "email": "johndoe@example.com"
+      },
+      {
+        "firstName": "Alice",
+        "lastName": "Smith",
+        "photo": "https://example.com/photos/alicesmith.jpg",
+        "email": "alice.smith@example.com"
+      },
+      {
+        "firstName": "David",
+        "lastName": "Johnson",
+        "photo": "https://example.com/photos/davidjohnson.jpg",
+        "email": "david.johnson@example.com"
+      },
+      {
+        "firstName": "Emily",
+        "lastName": "Brown",
+        "photo": "https://example.com/photos/emilybrown.jpg",
+        "email": "emily.brown@example.com"
+      },
+      {
+        "firstName": "Michael",
+        "lastName": "Davis",
+        "photo": "https://example.com/photos/michaeldavis.jpg",
+        "email": "m.davis@example.com"
+      }                              
+]
