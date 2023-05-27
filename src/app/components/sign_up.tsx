@@ -37,7 +37,7 @@ function SignUp() {
         .then((response) => {
           if (response.data == "Successfully created your account!") {
             navigate = true;
-          }
+          };
         setMessage(response.data)
         setOpen(true)
         }).finally(() => {
