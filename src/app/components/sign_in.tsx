@@ -25,7 +25,6 @@ function SignIn() {
 
       let navigate = false;
   
-  
       try {
         const res = await axios.post(`${process.env.NEXT_PUBLIC_API}sign_in`, { email: email, password: password })
         .then((response) => {
