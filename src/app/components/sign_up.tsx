@@ -38,18 +38,18 @@ function SignUp() {
           if (response.data == "Successfully created your account!") {
             navigate = true;
           };
-        setMessage(response.data)
-        setOpen(true)
+        setMessage(response.data);
+        setOpen(true);
         }).finally(() => {
           if (navigate) {
-            router.push("/sign_in")
+            router.push("/sign_in");
           } else {
             return;
           }
         })
       } catch(err) {
-        setMessage("There was an error.")
-      setOpen(true)
+        setMessage("There was an error.");
+      setOpen(true);
       }
     } else {
       setMessage("Passwords do not match. Please try again.")
