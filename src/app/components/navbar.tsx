@@ -72,7 +72,7 @@ function Navbar({ isHomePage }: NavBarProps) {
 
       <VerticalDivider height={24} />*/}
 
-<div
+{/*<div
           
           className={` shrink-0 rounded-full ${isHomePage ? "bg-gray-400" : "bg-white"} p-2.5 text-gray-600 shadow-sm hover:text-gray-700 cursor-pointer flex justify-center items-center`}
         >
@@ -81,7 +81,7 @@ function Navbar({ isHomePage }: NavBarProps) {
           </span>
           </div>
 
-          <VerticalDivider height={24} />
+    <VerticalDivider height={24} />*/}
 
         <div
           onClick={() => setOpenNotifications(true)}
